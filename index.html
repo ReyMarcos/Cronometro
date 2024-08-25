@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cronômetro Online</title>
+</head>
+<body>
+    <audio id="alarme" src="arquivos/alarm.mp3" style="display: none;"></audio>
+    <section id="principal">
+        <div class="center-vertical">
+            <h1>Cronômetro <span>Online</span></h1>
+
+            <div id="selecao">
+                <select name="horas" id="horas"></select>
+
+                <select name="minutos" id="minutos"></select>
+
+                <select name="segundos" id="segundos"></select>
+            </div>
+            <div id="painel">
+                <h3>00:00:00</h3>
+            </div>
+
+            <div id="botoes">
+                <button class="w100" id="comecar">Iniciar</button>
+
+                <button class="w100" id="zerar">Zerar</button>
+            </div>
+
+        </div>
+    </section>
+    <script src="js/functions.js"></script>
+</body>
+</html>
